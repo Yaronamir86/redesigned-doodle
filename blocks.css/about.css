@@ -86,11 +86,10 @@
   .about {
     padding: 40px 15px 20px 15px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
   }
 
   .about__title {
-    
     font-size: 28px;
     line-height: 32px;
     z-index: 2;
@@ -104,7 +103,6 @@
     max-width: 100%;
     z-index: 2;
     margin-top: 20px;
-
   }
 
   .about__paragraph {
@@ -118,7 +116,6 @@
     background-color: #2f80ed;
     width: 300px;
     height: 300px;
-    
   }
 
   .about__circle_animation_blurred {
@@ -134,56 +131,51 @@
   }
 }
 
-@media screen and (min-width:321px) and (max-width:767px){
-    .about {
-        padding: 40px 15px 20px 15px;
-        display: flex;
-        flex-direction:column;
-      }
-    
-      .about__title {
-        
-        font-size: 28px;
-        line-height: 32px;
-        z-index: 2;
-        margin: 0;
-        max-width: 100%;
-      }
-    
-      .about__content {
-        margin-top: 0;
-        flex-wrap: nowrap;
-        max-width: 100%;
-        z-index: 2;
-        margin-top: 20px;
-    
-      }
-    
-      .about__paragraph {
-        font-size: 14px;
-        line-height: 18px;
-        margin-top: 0;
-        max-width: 100%;
-      }
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .about {
+    padding: 60px 15px 40px 15px;
+    display: flex;
+    flex-direction: column;
+  }
 
-      .about__circle {
-        background-color: #2f80ed;
-        max-width: 350px;
-        max-height: 350px;
-        
-      }
-    
-      .about__circle_animation_blurred {
-        background-color: #2f80ed;
-        max-width: 350px;
-        max-height: 350px;
-        border-radius: 50%;
-        z-index: 1;
-        position: absolute;
-        left: -129px;
-        top: -152px;
-        animation: pulsate 1.3s ease-in-out infinite;
-      }
+  .about__title {
+    font-size: 28px;
+    line-height: 32px;
+    z-index: 2;
+    margin: 0;
+    max-width: 100%;
+  }
 
+  .about__content {
+    margin-top: 0;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    z-index: 2;
+    margin-top: 20px;
+  }
+
+  .about__paragraph {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .about__circle {
+    background-color: #2f80ed;
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .about__circle_animation_blurred {
+    background-color: #2f80ed;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    left: -129px;
+    top: -152px;
+    animation: pulsate 1.3s ease-in-out infinite;
+  }
 }
-
