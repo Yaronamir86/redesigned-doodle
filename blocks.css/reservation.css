@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 .reservation__title {
@@ -180,6 +181,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     max-width: 100%;
+    min-height: 100vh;
   }
   
   .form__fieldset {
