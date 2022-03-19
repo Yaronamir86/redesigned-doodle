@@ -1,0 +1,16 @@
+@import "../vendor/normalize.css";
+
+@import "../blocks.css/page.css";
+
+@import "../blocks.css/header.css";
+
+@import "../blocks.css/menu.css";
+
+@import "../blocks.css/recipes.css";
+
+@import "../blocks.css/reservation.css";
+
+@import "../blocks.css/about.css";
+
+@import "../blocks.css/footer.css";
+

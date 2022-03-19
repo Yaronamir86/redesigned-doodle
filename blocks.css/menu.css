@@ -1,0 +1,159 @@
+.menu {
+  margin: 0;
+  background-color: #0a2750;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 1024px;
+  color: #ffffff;
+}
+
+.menu__title {
+  font-family: "inter", arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  max-width: 780px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 24px;
+  max-width: 780px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+.menu__cards {
+  padding-top: 100px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.card__list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.card {
+  width: 548px;
+  max-width: 600px;
+  text-align: left;
+  margin: 0;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 32px;
+  margin: 0;
+}
+
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  margin-top: 16px;
+}
+
+.card__list-item:first-child {
+  margin-top: 0;
+}
+
+.item__desc {
+  min-width: fit-content;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-grow: 1;
+}
+
+.item__price {
+  min-width: fit-content;
+}
+
+@media screen and (max-width:768px){
+    .menu{
+    padding-bottom:20px ;
+}
+    
+}
+
+@media screen and (max-width: 320px) {
+  .menu {
+    min-height: fit-content;
+    color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
+  .menu__title {
+    font-size: 44px;
+    line-height: 52px;
+    padding-top: 30px;
+    max-width: 100%;
+  }
+
+  .menu__subtitle {
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 16px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+  }
+
+  .menu__cards {
+    padding-top: 40px;
+    gap: 40px;
+  }
+
+  .card__title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 12px;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:321px) and (max-width:767px){
+    
+    .menu {
+        min-height: fit-content;
+        color: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+      }
+}
+
+
